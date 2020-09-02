@@ -34,7 +34,7 @@
                     var imdburl = "https://www.imdb.com/title/" + data.Search[0].imdbID + "/";
 
                     var posterurl = data.Search[0].Poster;
-                    document.getElementById('answer').innerHTML = "<h1>" + title + "</h1><br> <img src= '" + posterurl + "'><br><p> Year Released:" + year + "</p> <br> <p> For plots: please see IMDB page: <a href='" + imdburl + "'target='_blank'>" + imdburl + "</a></p>";
+                    document.getElementById('answer').innerHTML = "<h1>" + title + "</h1><br> <img src= '" + posterurl + "'><br><p> Year Released:" + year + "</p> <br> <p> IMDB page: <a href='" + imdburl + "'target='_blank'>" + imdburl + "</a></p>";
                 });
             }
         </script>
